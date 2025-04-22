@@ -64,7 +64,7 @@ const Product = () => {
           <img
             src={product.url}
             alt={product.name}
-            className="w-full h-[450px] object-cover rounded-lg shadow-md"
+            className="w-full h-[450px] object-contain rounded-lg shadow-md"
           />
         </div>
 
